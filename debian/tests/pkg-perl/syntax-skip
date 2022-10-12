@@ -1,0 +1,2 @@
+# "Bareword ... not allowed" errors that don't seem to occur in regular use
+/usr/share/perl5/XML/DOM/NamedNodeMap.pm

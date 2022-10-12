@@ -1,0 +1,33 @@
+Source: libxml-dom-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: perl,
+                     libtest-nowarnings-perl <!nocheck>,
+                     libwww-perl <!nocheck>,
+                     libxml-parser-perl <!nocheck>,
+                     libxml-perl <!nocheck>,
+                     libxml-regexp-perl <!nocheck>,
+                     libxml2-utils <!nocheck>
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-dom-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-dom-perl.git
+Homepage: https://metacpan.org/release/XML-DOM
+Rules-Requires-Root: no
+
+Package: libxml-dom-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libwww-perl,
+         libxml-parser-perl,
+         libxml-perl,
+         libxml-regexp-perl
+Description: Perl module for building DOM Level 1 compliant doc structures
+ This module parses XML strings or files and builds a data structure
+ that conforms to the API of the Document Object Model as described at
+ http://www.w3.org/TR/REC-DOM-Level-1.  See the XML::Parser manpage
+ for other available features of the XML::DOM::Parser class.

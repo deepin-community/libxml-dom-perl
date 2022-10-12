@@ -1,0 +1,33 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://metacpan.org/release/XML-DOM
+Upstream-Contact: T.J. Mather <tjmather@maxmind.com>
+Upstream-Name: XML-DOM
+
+Files: *
+Copyright: 1999-2000, Enno Derksen <enno@att.com>
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2001-2003, Ardo van Rangelrooij <ardo@debian.org>
+ 2003-2004, Jay Bonci <jaybonci@debian.org>
+ 2004, Roland Mas <lolando@debian.org>
+ 2008, gregor herrmann <gregoa@debian.org>
+ 2015, Florian Schlichting <fsfs@debian.org>
+ 2019, Nick Morrott <nickm@debian.org>
+License: Artistic or GPL-1+
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

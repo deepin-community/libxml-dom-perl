@@ -1,0 +1,7 @@
+t/
+CheckAncestors.pm
+CmpDOM.pm
+# t/dom_astress.t
+samples/REC-xml-19980210.xml
+# t/dom_jp_astress.t
+samples/minutes.xml
